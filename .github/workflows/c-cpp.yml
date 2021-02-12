@@ -17,3 +17,5 @@ jobs:
       run: ./configure
     - name: triail.c
       run: make
+    - name: make distcheck
+      run: make distcheck
